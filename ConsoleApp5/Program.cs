@@ -91,8 +91,28 @@ namespace ConsoleApp5
                 Console.WriteLine();
             }
             #endregion
+            Console.WriteLine("Зубчатый массив");
 
-            string[] users = new string[3] { "Petr Petrov", "Sidorov Sidor", "Ivan Ivanov" };
+            int[][,] зубачатый_двумерный_массив = new int[2][,];
+            зубачатый_двумерный_массив[0] = new int[,] { { 34, 35, 64 }, { 34, 35, 64} };
+            зубачатый_двумерный_массив[1] = new int[,] { { 34, 35, 64, 56, 56, 3,56, 35,6 ,3,6 }, { 34, 35, 64, 56, 56, 3, 56, 35, 6, 3, 6 }, { 34, 35, 64, 56, 56, 3, 56, 35, 6, 3, 6 } };
+
+            #region Вывод двумерного зубчатого массива
+            for (int i = 0; i < зубачатый_двумерный_массив.Length; i++)
+            {
+                for (int j = 0; j < зубачатый_двумерный_массив[i].GetLength(0); j++)
+                {
+                    for (int k = 0; k < зубачатый_двумерный_массив[i].GetLength(1); k++)
+                    {
+                        Console.Write("[" + зубачатый_двумерный_массив[i][j, k] + "]");
+                    }
+                    Console.WriteLine();
+                }
+                Console.WriteLine();
+            }
+            #endregion
+
+            string[] users = { "Petr Petrov", "Sidorov Sidor", "Ivan Ivanov" };
             Console.Write("Введите данные: ");
             string name = Console.ReadLine();
 
