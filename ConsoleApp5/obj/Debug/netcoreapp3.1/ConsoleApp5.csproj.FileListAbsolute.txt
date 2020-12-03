@@ -11,3 +11,16 @@ C:\Users\snake\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\Cons
 C:\Users\snake\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.dll
 C:\Users\snake\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.pdb
 C:\Users\snake\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.genruntimeconfig.cache
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.csprojAssemblyReference.cache
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.AssemblyInfoInputs.cache
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.AssemblyInfo.cs
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.dll
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.pdb
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.exe
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.deps.json
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.runtimeconfig.json
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.runtimeconfig.dev.json
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.dll
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\bin\Debug\netcoreapp3.1\ConsoleApp5.pdb
+C:\Users\snake\OneDrive\Documents\GitHub\arrays\ConsoleApp5\obj\Debug\netcoreapp3.1\ConsoleApp5.genruntimeconfig.cache
