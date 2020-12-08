@@ -6,7 +6,89 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
+            string[][] strArr1 = new string[3][];
+            strArr1[0] = new string[] { "Petr ", "Petrov", "Olegovich", "23" };
+            strArr1[1] = new string[] { "Ivan", "Ivanov", "", ""};
+            strArr1[2] = new string[] { "Sidor", "Sidorov", "", "64" };
 
+            foreach (string strUser in strArr1[0])
+            {
+                int i = 0;
+                if (strUser.Length > 0)
+                {
+                    i++;
+                    Console.WriteLine(strUser);
+                }
+                else
+                {
+                    string newStr = "";
+                    if (i == 2)
+                    {
+                        newStr = "null Otchestvo";
+                    }
+                    else if (i == 3)
+                    {
+                        newStr = "null Age";
+                    }
+                    i++;
+                    Console.WriteLine(newStr);
+                }
+            }
+            
+            foreach (string strUser in strArr1[1])
+            {
+                int i = 0;
+                if (strUser.Length > 0)
+                {
+                    i++;
+                    Console.WriteLine(strUser);
+                }
+                else
+                {
+                    string newStr = "";
+                    if (i == 2)
+                    {
+                        newStr = "null Otchestvo";
+                    }
+                    else if (i == 3)
+                    {
+                        newStr = "null Age";
+                    }
+                    i++;
+                    Console.WriteLine(newStr);
+                }
+            }
+
+            foreach (string strUser in strArr1[2])
+            {
+                int i = 0;
+                if (strUser.Length > 0)
+                {
+                    i++;
+                    Console.WriteLine(strUser);
+                }
+                else
+                {
+                    string newStr = "";
+                    if (i == 2)
+                    {
+                        newStr = "null Otchestvo";
+                    }
+                    else if (i == 3)
+                    {
+                        newStr = "null Age";
+                    }
+                    i++;
+                    Console.WriteLine(newStr);
+                }
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            #region Выполнение заданий 1 и 2 (второе завершить самостоятельно)
             int[] arr1 = new int[5] { 5, 7, 3, 1, 8 };
             int[] arr2 = new int[8] { 5, 7, 3, 1, 8, 45, 3, 6 };
             int[] sum = new int[8];
@@ -16,7 +98,7 @@ namespace ConsoleApp5
                 if (i < arr1.Length)
                 {
                     sum[i] = arr1[i] + arr2[i];
-                } 
+                }
                 else
                 {
                     sum[i] = 6 + arr2[i];
@@ -34,7 +116,7 @@ namespace ConsoleApp5
             Console.WriteLine();
 
 
-            int[,] arr11 = new int[2, 2] { { 2, 3 }, { 5, 7} };
+            int[,] arr11 = new int[2, 2] { { 2, 3 }, { 5, 7 } };
             int[,] arr22 = new int[5, 5] {
                                             { 2, 3, 6, 8, 3 },
                                             { 5, 7, 5, 7, 1},
@@ -67,9 +149,9 @@ namespace ConsoleApp5
             Console.WriteLine();
 
             int[][,] customArr = new int[3][,];
-            customArr[0] = new int[2, 2]{ { 5, 7 }, { 9, 1 } };
-            customArr[1] = new int[3, 2]{ { 3, 7 }, { 53, 12 }, { 76, 32 } };
-            customArr[2] = new int[1, 2] { { 3, 8} };
+            customArr[0] = new int[2, 2] { { 5, 7 }, { 9, 1 } };
+            customArr[1] = new int[3, 2] { { 3, 7 }, { 53, 12 }, { 76, 32 } };
+            customArr[2] = new int[1, 2] { { 3, 8 } };
             int[,,,] fourDArr = new int[2, 2, 2, 2];
 
             for (int i = 0; i < fourDArr.GetLength(0); i++)
@@ -95,6 +177,7 @@ namespace ConsoleApp5
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
+            #endregion
 
             #region Урок по массивам (зубчатые, двумерные, трехмерные, зубчатые-двумерные)
             // одномерные массивы
